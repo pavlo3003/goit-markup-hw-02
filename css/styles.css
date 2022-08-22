@@ -37,9 +37,11 @@ button {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    color: var(--secondary-text-color-theme-light);
+}
+.text-logo {
     color: var(--accent-color);
 }
-
 .menu-link {
     font-weight: 500;
     font-size: 14px;
@@ -191,6 +193,9 @@ footer {
         font-size: 26px;
         line-height: 1.19;
         color: var(--primary-text-color-theme-dark);
+}
+.text-logo-footer {
+    color: var(--accent-color);
 }
 .footer-contact-address {
         font-style: normal;
