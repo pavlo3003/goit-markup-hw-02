@@ -52,8 +52,6 @@ button {
 .menu-link:hover,
 .menu-link:focus {
     color: var(--accent-color);
-    border: 1px solid #000000;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .menu .menu-link.current {
     color: var(--accent-color);
@@ -101,8 +99,15 @@ button {
         color: var(--primary-text-color-theme-dark);
     }
 .hero-btn {
-    color: var(--primary-text-color-theme-dark);
-    background-color: var(--accent-color);
+        color: var(--primary-text-color-theme-dark);
+        background-color: var(--accent-color);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -221,8 +226,12 @@ footer {
 
 /* =====PORTFOLIO===== */
 .filter-btn {
-    background-color: var(--secondary-background-color);
-    color: var(--secondary-text-color-theme-light);
+        background-color: var(--secondary-background-color);
+        color: var(--secondary-text-color-theme-light);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
 }
 .filter-btn:hover,
 .filter-btn:focus {
